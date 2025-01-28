@@ -1,5 +1,13 @@
 # Inteligencia artificial
 
+- [Inteligencia artificial](#inteligencia-artificial)
+  - [Conceitos](#conceitos)
+    - [_overfitting_ e _underfitting_](#-overfitting-e-underfitting)
+  - [Bibliotecas e funções](#bibliotecas-e-fun-es)
+    - [sklearn.model_selection.train_test_split](#sklearnmodel-selectiontrain-test-split)
+  - [Modelos](#modelos)
+    - [Regressão Linear (Linear Regression)](#regress-o-linear-linear-regression)
+
 ## Conceitos
 
 ### _overfitting_ e _underfitting_
@@ -8,7 +16,7 @@
 
 ### sklearn.model_selection.train_test_split
 
-O train_test_split gera essas quatro variáveis para simular um cenário real, onde o modelo será apresentado a novos dados que ele não conhece. Ao comparar as previsões do modelo com os valores reais no conjunto de teste, podemos avaliar a sua qualidade e identificar possíveis problemas, como _overfitting_ ou _underfitting_.
+O train*test_split gera essas quatro variáveis para simular um cenário real, onde o modelo será apresentado a novos dados que ele não conhece. Ao comparar as previsões do modelo com os valores reais no conjunto de teste, podemos avaliar a sua qualidade e identificar possíveis problemas, como \_overfitting* ou _underfitting_.
 
 **Exemplo:**
 
@@ -86,9 +94,9 @@ A equação geral de uma reta é:
 $$y = mx + b$$
 
 - Onde
-  y = Variável dependente (altura)
-  m = Inclinação da reta
-  x = Variável independente (idade)
-  b = Intercepto (ponto onde a reta cruza o eixo y)
+  - y = Variável dependente (altura)
+  - m = Inclinação da reta
+  - x = Variável independente (idade)
+  - b = Intercepto (ponto onde a reta cruza o eixo y)
 
 ---
